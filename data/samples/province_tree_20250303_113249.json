@@ -1,0 +1,4951 @@
+{
+  "code": 0,
+  "data": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4708
+                },
+                "has_children": false,
+                "id": 4708,
+                "name": "省发展和改革委员会",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4708:",
+                "rank": 1,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4707
+                },
+                "has_children": false,
+                "id": 4707,
+                "name": "经济和信息化厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4707:",
+                "rank": 2,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4706
+                },
+                "has_children": false,
+                "id": 4706,
+                "name": "教育厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4706:",
+                "rank": 3,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4705
+                },
+                "has_children": false,
+                "id": 4705,
+                "name": "科学技术厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4705:",
+                "rank": 4,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4704
+                },
+                "has_children": false,
+                "id": 4704,
+                "name": "省民族宗教事务委员会",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4704:",
+                "rank": 5,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4702
+                },
+                "has_children": false,
+                "id": 4702,
+                "name": "公安厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4702:",
+                "rank": 6,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4699
+                },
+                "has_children": false,
+                "id": 4699,
+                "name": "民政厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4699:",
+                "rank": 7,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4698
+                },
+                "has_children": false,
+                "id": 4698,
+                "name": "司法厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4698:",
+                "rank": 8,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4697
+                },
+                "has_children": false,
+                "id": 4697,
+                "name": "财政厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4697:",
+                "rank": 9,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4696
+                },
+                "has_children": false,
+                "id": 4696,
+                "name": "人力资源和社会保障厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4696:",
+                "rank": 10,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4695
+                },
+                "has_children": false,
+                "id": 4695,
+                "name": "自然资源厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4695:",
+                "rank": 11,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4688
+                },
+                "has_children": false,
+                "id": 4688,
+                "name": "生态环境厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4688:",
+                "rank": 12,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4694
+                },
+                "has_children": false,
+                "id": 4694,
+                "name": "住房和城乡建设厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4694:",
+                "rank": 13,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4693
+                },
+                "has_children": false,
+                "id": 4693,
+                "name": "交通运输厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4693:",
+                "rank": 14,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4692
+                },
+                "has_children": false,
+                "id": 4692,
+                "name": "水利厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4692:",
+                "rank": 15,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4691
+                },
+                "has_children": false,
+                "id": 4691,
+                "name": "农业农村厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4691:",
+                "rank": 16,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4689
+                },
+                "has_children": false,
+                "id": 4689,
+                "name": "商务厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4689:",
+                "rank": 17,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4687
+                },
+                "has_children": false,
+                "id": 4687,
+                "name": "文化和旅游厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4687:",
+                "rank": 18,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4686
+                },
+                "has_children": false,
+                "id": 4686,
+                "name": "省卫生健康委员会",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4686:",
+                "rank": 19,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4745
+                },
+                "has_children": false,
+                "id": 4745,
+                "name": "退役军人事务厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4745:",
+                "rank": 20,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4746
+                },
+                "has_children": false,
+                "id": 4746,
+                "name": "应急管理厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4746:",
+                "rank": 21,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4685
+                },
+                "has_children": false,
+                "id": 4685,
+                "name": "审计厅",
+                "parent_id": 4718,
+                "path": "34:4659:4718:4685:",
+                "rank": 22,
+                "statistic": null,
+                "type": ""
+              }
+            ],
+            "code": "",
+            "ext": {
+              "originId": 4718
+            },
+            "has_children": false,
+            "id": 4718,
+            "name": "省政府组成部门",
+            "parent_id": 4659,
+            "path": "34:4659:4718:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4703
+                },
+                "has_children": false,
+                "id": 4703,
+                "name": "省国有资产监督管理委员会",
+                "parent_id": 4719,
+                "path": "34:4659:4719:4703:",
+                "rank": 1,
+                "statistic": null,
+                "type": ""
+              }
+            ],
+            "code": "",
+            "ext": {
+              "originId": 4719
+            },
+            "has_children": false,
+            "id": 4719,
+            "name": "直属特设机构",
+            "parent_id": 4659,
+            "path": "34:4659:4719:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4682
+                },
+                "has_children": false,
+                "id": 4682,
+                "name": "省市场监督管理局",
+                "parent_id": 4720,
+                "path": "34:4659:4720:4682:",
+                "rank": 1,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4680
+                },
+                "has_children": false,
+                "id": 4680,
+                "name": "省体育局",
+                "parent_id": 4720,
+                "path": "34:4659:4720:4680:",
+                "rank": 2,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4679
+                },
+                "has_children": false,
+                "id": 4679,
+                "name": "省统计局",
+                "parent_id": 4720,
+                "path": "34:4659:4720:4679:",
+                "rank": 3,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4677
+                },
+                "has_children": false,
+                "id": 4677,
+                "name": "省机关事务管理局",
+                "parent_id": 4720,
+                "path": "34:4659:4720:4677:",
+                "rank": 4,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4672
+                },
+                "has_children": false,
+                "id": 4672,
+                "name": "省人民防空办公室",
+                "parent_id": 4720,
+                "path": "34:4659:4720:4672:",
+                "rank": 7,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4749
+                },
+                "has_children": false,
+                "id": 4749,
+                "name": "省地方金融监督管理局",
+                "parent_id": 4720,
+                "path": "34:4659:4720:4749:",
+                "rank": 8,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4750
+                },
+                "has_children": false,
+                "id": 4750,
+                "name": "省经济合作局",
+                "parent_id": 4720,
+                "path": "34:4659:4720:4750:",
+                "rank": 9,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4751
+                },
+                "has_children": false,
+                "id": 4751,
+                "name": "省林业和草原局",
+                "parent_id": 4720,
+                "path": "34:4659:4720:4751:",
+                "rank": 10,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4681
+                },
+                "has_children": false,
+                "id": 4681,
+                "name": "省广播电视局",
+                "parent_id": 4720,
+                "path": "34:4659:4720:4681:",
+                "rank": 11,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4748
+                },
+                "has_children": false,
+                "id": 4748,
+                "name": "省医疗保障局",
+                "parent_id": 4720,
+                "path": "34:4659:4720:4748:",
+                "rank": 12,
+                "statistic": null,
+                "type": ""
+              }
+            ],
+            "code": "",
+            "ext": {
+              "originId": 4720
+            },
+            "has_children": false,
+            "id": 4720,
+            "name": "直属机构",
+            "parent_id": 4659,
+            "path": "34:4659:4720:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4726
+                },
+                "has_children": false,
+                "id": 4726,
+                "name": "省档案局",
+                "parent_id": 4721,
+                "path": "34:4659:4721:4726:",
+                "rank": 1,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4727
+                },
+                "has_children": false,
+                "id": 4727,
+                "name": "省知识产权局",
+                "parent_id": 4721,
+                "path": "34:4659:4721:4727:",
+                "rank": 2,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4728
+                },
+                "has_children": false,
+                "id": 4728,
+                "name": "省投资促进局",
+                "parent_id": 4721,
+                "path": "34:4659:4721:4728:",
+                "rank": 3,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4729
+                },
+                "has_children": false,
+                "id": 4729,
+                "name": "省地矿局",
+                "parent_id": 4721,
+                "path": "34:4659:4721:4729:",
+                "rank": 4,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4730
+                },
+                "has_children": false,
+                "id": 4730,
+                "name": "省核工业地质局",
+                "parent_id": 4721,
+                "path": "34:4659:4721:4730:",
+                "rank": 5,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4731
+                },
+                "has_children": false,
+                "id": 4731,
+                "name": "省冶金地质勘查局",
+                "parent_id": 4721,
+                "path": "34:4659:4721:4731:",
+                "rank": 6,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4732
+                },
+                "has_children": false,
+                "id": 4732,
+                "name": "省煤田地质局",
+                "parent_id": 4721,
+                "path": "34:4659:4721:4732:",
+                "rank": 7,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4733
+                },
+                "has_children": false,
+                "id": 4733,
+                "name": "省地方志办",
+                "parent_id": 4721,
+                "path": "34:4659:4721:4733:",
+                "rank": 8,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4734
+                },
+                "has_children": false,
+                "id": 4734,
+                "name": "省政务服务和资源交易服务中心",
+                "parent_id": 4721,
+                "path": "34:4659:4721:4734:",
+                "rank": 9,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4735
+                },
+                "has_children": false,
+                "id": 4735,
+                "name": "四川博览局",
+                "parent_id": 4721,
+                "path": "34:4659:4721:4735:",
+                "rank": 10,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4736
+                },
+                "has_children": false,
+                "id": 4736,
+                "name": "省社科院",
+                "parent_id": 4721,
+                "path": "34:4659:4721:4736:",
+                "rank": 11,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4737
+                },
+                "has_children": false,
+                "id": 4737,
+                "name": "省农科院",
+                "parent_id": 4721,
+                "path": "34:4659:4721:4737:",
+                "rank": 12,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4738
+                },
+                "has_children": false,
+                "id": 4738,
+                "name": "中测院",
+                "parent_id": 4721,
+                "path": "34:4659:4721:4738:",
+                "rank": 13,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4767
+                },
+                "has_children": false,
+                "id": 4767,
+                "name": "四川省大数据中心",
+                "parent_id": 4721,
+                "path": "34:4659:4721:4767:",
+                "rank": 14,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4768
+                },
+                "has_children": false,
+                "id": 4768,
+                "name": "四川省知识产权服务促进中心",
+                "parent_id": 4721,
+                "path": "34:4659:4721:4768:",
+                "rank": 15,
+                "statistic": null,
+                "type": ""
+              }
+            ],
+            "code": "",
+            "ext": {
+              "originId": 4721
+            },
+            "has_children": false,
+            "id": 4721,
+            "name": "直属事业单位",
+            "parent_id": 4659,
+            "path": "34:4659:4721:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4669
+                },
+                "has_children": false,
+                "id": 4669,
+                "name": "省粮食和物资储备局",
+                "parent_id": 4723,
+                "path": "34:4659:4723:4669:",
+                "rank": 1,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4671
+                },
+                "has_children": false,
+                "id": 4671,
+                "name": "省监狱管理局",
+                "parent_id": 4723,
+                "path": "34:4659:4723:4671:",
+                "rank": 3,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4752
+                },
+                "has_children": false,
+                "id": 4752,
+                "name": "省戒毒管理局",
+                "parent_id": 4723,
+                "path": "34:4659:4723:4752:",
+                "rank": 4,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4753
+                },
+                "has_children": false,
+                "id": 4753,
+                "name": "省文物局",
+                "parent_id": 4723,
+                "path": "34:4659:4723:4753:",
+                "rank": 5,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4670
+                },
+                "has_children": false,
+                "id": 4670,
+                "name": "省中医药管理局",
+                "parent_id": 4723,
+                "path": "34:4659:4723:4670:",
+                "rank": 6,
+                "statistic": null,
+                "type": ""
+              },
+              {
+                "children": [],
+                "code": "",
+                "ext": {
+                  "originId": 4754
+                },
+                "has_children": false,
+                "id": 4754,
+                "name": "省药品监督管理局",
+                "parent_id": 4723,
+                "path": "34:4659:4723:4754:",
+                "rank": 7,
+                "statistic": null,
+                "type": ""
+              }
+            ],
+            "code": "",
+            "ext": {
+              "originId": 4723
+            },
+            "has_children": false,
+            "id": 4723,
+            "name": "部门管理机构",
+            "parent_id": 4659,
+            "path": "34:4659:4723:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "link": "/org/province",
+          "mayor": true,
+          "originId": 4659
+        },
+        "has_children": false,
+        "id": 4659,
+        "name": "省级政府部门",
+        "parent_id": 34,
+        "path": "34:4659:",
+        "rank": 1,
+        "statistic": null,
+        "type": "PG"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4717
+            },
+            "has_children": false,
+            "id": 4717,
+            "name": "天府新区管委会",
+            "parent_id": 4713,
+            "path": "34:4713:4717:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4714
+            },
+            "has_children": false,
+            "id": 4714,
+            "name": "成都片区",
+            "parent_id": 4713,
+            "path": "34:4713:4714:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4715
+            },
+            "has_children": false,
+            "id": 4715,
+            "name": "眉山片区",
+            "parent_id": 4713,
+            "path": "34:4713:4715:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4716
+            },
+            "has_children": false,
+            "id": 4716,
+            "name": "资阳片区",
+            "parent_id": 4713,
+            "path": "34:4713:4716:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 4713
+        },
+        "has_children": false,
+        "id": 4713,
+        "name": "天府新区",
+        "parent_id": 34,
+        "path": "34:4713:",
+        "rank": 2,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1289
+            },
+            "has_children": false,
+            "id": 1289,
+            "name": "市委书记曹立军",
+            "parent_id": 410,
+            "path": "34:410:1289:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1290
+            },
+            "has_children": false,
+            "id": 1290,
+            "name": "市长王凤朝",
+            "parent_id": 410,
+            "path": "34:410:1290:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4756
+            },
+            "has_children": false,
+            "id": 4756,
+            "name": "东部新区",
+            "parent_id": 410,
+            "path": "34:410:4756:",
+            "rank": 4,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4498
+            },
+            "has_children": false,
+            "id": 4498,
+            "name": "高新区",
+            "parent_id": 410,
+            "path": "34:410:4498:",
+            "rank": 5,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1772
+            },
+            "has_children": false,
+            "id": 1772,
+            "name": "青羊区",
+            "parent_id": 410,
+            "path": "34:410:1772:",
+            "rank": 6,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1773
+            },
+            "has_children": false,
+            "id": 1773,
+            "name": "锦江区",
+            "parent_id": 410,
+            "path": "34:410:1773:",
+            "rank": 7,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1774
+            },
+            "has_children": false,
+            "id": 1774,
+            "name": "金牛区",
+            "parent_id": 410,
+            "path": "34:410:1774:",
+            "rank": 8,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1775
+            },
+            "has_children": false,
+            "id": 1775,
+            "name": "武侯区",
+            "parent_id": 410,
+            "path": "34:410:1775:",
+            "rank": 9,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1776
+            },
+            "has_children": false,
+            "id": 1776,
+            "name": "成华区",
+            "parent_id": 410,
+            "path": "34:410:1776:",
+            "rank": 10,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1777
+            },
+            "has_children": false,
+            "id": 1777,
+            "name": "龙泉驿区",
+            "parent_id": 410,
+            "path": "34:410:1777:",
+            "rank": 11,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1778
+            },
+            "has_children": false,
+            "id": 1778,
+            "name": "青白江区",
+            "parent_id": 410,
+            "path": "34:410:1778:",
+            "rank": 12,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1779
+            },
+            "has_children": false,
+            "id": 1779,
+            "name": "新都区",
+            "parent_id": 410,
+            "path": "34:410:1779:",
+            "rank": 13,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1780
+            },
+            "has_children": false,
+            "id": 1780,
+            "name": "温江区",
+            "parent_id": 410,
+            "path": "34:410:1780:",
+            "rank": 14,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1781
+            },
+            "has_children": false,
+            "id": 1781,
+            "name": "都江堰市",
+            "parent_id": 410,
+            "path": "34:410:1781:",
+            "rank": 15,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1782
+            },
+            "has_children": false,
+            "id": 1782,
+            "name": "彭州市",
+            "parent_id": 410,
+            "path": "34:410:1782:",
+            "rank": 16,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1783
+            },
+            "has_children": false,
+            "id": 1783,
+            "name": "邛崃市",
+            "parent_id": 410,
+            "path": "34:410:1783:",
+            "rank": 17,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1784
+            },
+            "has_children": false,
+            "id": 1784,
+            "name": "崇州市",
+            "parent_id": 410,
+            "path": "34:410:1784:",
+            "rank": 18,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1785
+            },
+            "has_children": false,
+            "id": 1785,
+            "name": "金堂县",
+            "parent_id": 410,
+            "path": "34:410:1785:",
+            "rank": 19,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1786
+            },
+            "has_children": false,
+            "id": 1786,
+            "name": "双流区",
+            "parent_id": 410,
+            "path": "34:410:1786:",
+            "rank": 20,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1787
+            },
+            "has_children": false,
+            "id": 1787,
+            "name": "郫都区",
+            "parent_id": 410,
+            "path": "34:410:1787:",
+            "rank": 21,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1901
+            },
+            "has_children": false,
+            "id": 1901,
+            "name": "简阳市",
+            "parent_id": 410,
+            "path": "34:410:1901:",
+            "rank": 22,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1788
+            },
+            "has_children": false,
+            "id": 1788,
+            "name": "大邑县",
+            "parent_id": 410,
+            "path": "34:410:1788:",
+            "rank": 23,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1789
+            },
+            "has_children": false,
+            "id": 1789,
+            "name": "蒲江县",
+            "parent_id": 410,
+            "path": "34:410:1789:",
+            "rank": 24,
+            "statistic": null,
+            "type": "AREA"
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1790
+            },
+            "has_children": false,
+            "id": 1790,
+            "name": "新津区",
+            "parent_id": 410,
+            "path": "34:410:1790:",
+            "rank": 25,
+            "statistic": null,
+            "type": "AREA"
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 410
+        },
+        "has_children": false,
+        "id": 410,
+        "name": "成都",
+        "parent_id": 34,
+        "path": "34:410:",
+        "rank": 3,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1291
+            },
+            "has_children": false,
+            "id": 1291,
+            "name": "市委书记曾洪扬",
+            "parent_id": 409,
+            "path": "34:409:1291:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1292
+            },
+            "has_children": false,
+            "id": 1292,
+            "name": "市长石钢",
+            "parent_id": 409,
+            "path": "34:409:1292:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1791
+            },
+            "has_children": false,
+            "id": 1791,
+            "name": "自流井区",
+            "parent_id": 409,
+            "path": "34:409:1791:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1792
+            },
+            "has_children": false,
+            "id": 1792,
+            "name": "大安区",
+            "parent_id": 409,
+            "path": "34:409:1792:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1793
+            },
+            "has_children": false,
+            "id": 1793,
+            "name": "贡井区",
+            "parent_id": 409,
+            "path": "34:409:1793:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1794
+            },
+            "has_children": false,
+            "id": 1794,
+            "name": "沿滩区",
+            "parent_id": 409,
+            "path": "34:409:1794:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1795
+            },
+            "has_children": false,
+            "id": 1795,
+            "name": "荣县",
+            "parent_id": 409,
+            "path": "34:409:1795:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1796
+            },
+            "has_children": false,
+            "id": 1796,
+            "name": "富顺县",
+            "parent_id": 409,
+            "path": "34:409:1796:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4765
+            },
+            "has_children": false,
+            "id": 4765,
+            "name": "高新区",
+            "parent_id": 409,
+            "path": "34:409:4765:",
+            "rank": 9,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 409
+        },
+        "has_children": false,
+        "id": 409,
+        "name": "自贡",
+        "parent_id": 34,
+        "path": "34:409:",
+        "rank": 4,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1293
+            },
+            "has_children": false,
+            "id": 1293,
+            "name": "市委书记吴群刚",
+            "parent_id": 408,
+            "path": "34:408:1293:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1294
+            },
+            "has_children": false,
+            "id": 1294,
+            "name": "市长范继跃",
+            "parent_id": 408,
+            "path": "34:408:1294:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1797
+            },
+            "has_children": false,
+            "id": 1797,
+            "name": "东区",
+            "parent_id": 408,
+            "path": "34:408:1797:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1798
+            },
+            "has_children": false,
+            "id": 1798,
+            "name": "西区",
+            "parent_id": 408,
+            "path": "34:408:1798:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1799
+            },
+            "has_children": false,
+            "id": 1799,
+            "name": "仁和区",
+            "parent_id": 408,
+            "path": "34:408:1799:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1800
+            },
+            "has_children": false,
+            "id": 1800,
+            "name": "米易县",
+            "parent_id": 408,
+            "path": "34:408:1800:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1801
+            },
+            "has_children": false,
+            "id": 1801,
+            "name": "盐边县",
+            "parent_id": 408,
+            "path": "34:408:1801:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 408
+        },
+        "has_children": false,
+        "id": 408,
+        "name": "攀枝花",
+        "parent_id": 34,
+        "path": "34:408:",
+        "rank": 5,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1295
+            },
+            "has_children": false,
+            "id": 1295,
+            "name": "市委书记刘筱柳",
+            "parent_id": 407,
+            "path": "34:407:1295:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1296
+            },
+            "has_children": false,
+            "id": 1296,
+            "name": "市长余先河",
+            "parent_id": 407,
+            "path": "34:407:1296:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1802
+            },
+            "has_children": false,
+            "id": 1802,
+            "name": "江阳区",
+            "parent_id": 407,
+            "path": "34:407:1802:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1803
+            },
+            "has_children": false,
+            "id": 1803,
+            "name": "龙马潭区",
+            "parent_id": 407,
+            "path": "34:407:1803:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1804
+            },
+            "has_children": false,
+            "id": 1804,
+            "name": "纳溪区",
+            "parent_id": 407,
+            "path": "34:407:1804:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1805
+            },
+            "has_children": false,
+            "id": 1805,
+            "name": "泸县",
+            "parent_id": 407,
+            "path": "34:407:1805:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1806
+            },
+            "has_children": false,
+            "id": 1806,
+            "name": "合江县",
+            "parent_id": 407,
+            "path": "34:407:1806:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1807
+            },
+            "has_children": false,
+            "id": 1807,
+            "name": "叙永县",
+            "parent_id": 407,
+            "path": "34:407:1807:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1808
+            },
+            "has_children": false,
+            "id": 1808,
+            "name": "古蔺县",
+            "parent_id": 407,
+            "path": "34:407:1808:",
+            "rank": 9,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 407
+        },
+        "has_children": false,
+        "id": 407,
+        "name": "泸州",
+        "parent_id": 34,
+        "path": "34:407:",
+        "rank": 6,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1297
+            },
+            "has_children": false,
+            "id": 1297,
+            "name": "市委书记刘光强",
+            "parent_id": 406,
+            "path": "34:406:1297:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1298
+            },
+            "has_children": false,
+            "id": 1298,
+            "name": "市长黄朝阳",
+            "parent_id": 406,
+            "path": "34:406:1298:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1809
+            },
+            "has_children": false,
+            "id": 1809,
+            "name": "旌阳区",
+            "parent_id": 406,
+            "path": "34:406:1809:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1810
+            },
+            "has_children": false,
+            "id": 1810,
+            "name": "什邡市",
+            "parent_id": 406,
+            "path": "34:406:1810:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1811
+            },
+            "has_children": false,
+            "id": 1811,
+            "name": "广汉市",
+            "parent_id": 406,
+            "path": "34:406:1811:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1812
+            },
+            "has_children": false,
+            "id": 1812,
+            "name": "绵竹市",
+            "parent_id": 406,
+            "path": "34:406:1812:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1813
+            },
+            "has_children": false,
+            "id": 1813,
+            "name": "罗江区",
+            "parent_id": 406,
+            "path": "34:406:1813:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1814
+            },
+            "has_children": false,
+            "id": 1814,
+            "name": "中江县",
+            "parent_id": 406,
+            "path": "34:406:1814:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4762
+            },
+            "has_children": false,
+            "id": 4762,
+            "name": "经开区",
+            "parent_id": 406,
+            "path": "34:406:4762:",
+            "rank": 9,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 406
+        },
+        "has_children": false,
+        "id": 406,
+        "name": "德阳",
+        "parent_id": 34,
+        "path": "34:406:",
+        "rank": 7,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1299
+            },
+            "has_children": false,
+            "id": 1299,
+            "name": "市委书记左永祥",
+            "parent_id": 405,
+            "path": "34:405:1299:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1300
+            },
+            "has_children": false,
+            "id": 1300,
+            "name": "市长李云",
+            "parent_id": 405,
+            "path": "34:405:1300:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1815
+            },
+            "has_children": false,
+            "id": 1815,
+            "name": "涪城区",
+            "parent_id": 405,
+            "path": "34:405:1815:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1816
+            },
+            "has_children": false,
+            "id": 1816,
+            "name": "游仙区",
+            "parent_id": 405,
+            "path": "34:405:1816:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1817
+            },
+            "has_children": false,
+            "id": 1817,
+            "name": "安州区",
+            "parent_id": 405,
+            "path": "34:405:1817:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1818
+            },
+            "has_children": false,
+            "id": 1818,
+            "name": "平武县",
+            "parent_id": 405,
+            "path": "34:405:1818:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1819
+            },
+            "has_children": false,
+            "id": 1819,
+            "name": "北川羌族自治县",
+            "parent_id": 405,
+            "path": "34:405:1819:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1820
+            },
+            "has_children": false,
+            "id": 1820,
+            "name": "三台县",
+            "parent_id": 405,
+            "path": "34:405:1820:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1821
+            },
+            "has_children": false,
+            "id": 1821,
+            "name": "盐亭县",
+            "parent_id": 405,
+            "path": "34:405:1821:",
+            "rank": 9,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1822
+            },
+            "has_children": false,
+            "id": 1822,
+            "name": "梓潼县",
+            "parent_id": 405,
+            "path": "34:405:1822:",
+            "rank": 10,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4405
+            },
+            "has_children": false,
+            "id": 4405,
+            "name": "江油市",
+            "parent_id": 405,
+            "path": "34:405:4405:",
+            "rank": 12,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4712
+            },
+            "has_children": false,
+            "id": 4712,
+            "name": "高新区",
+            "parent_id": 405,
+            "path": "34:405:4712:",
+            "rank": 13,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4769
+            },
+            "has_children": false,
+            "id": 4769,
+            "name": "经开区",
+            "parent_id": 405,
+            "path": "34:405:4769:",
+            "rank": 13,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4771
+            },
+            "has_children": false,
+            "id": 4771,
+            "name": "科技城新区",
+            "parent_id": 405,
+            "path": "34:405:4771:",
+            "rank": 14,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4772
+            },
+            "has_children": false,
+            "id": 4772,
+            "name": "仙海水利风景区",
+            "parent_id": 405,
+            "path": "34:405:4772:",
+            "rank": 15,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 405
+        },
+        "has_children": false,
+        "id": 405,
+        "name": "绵阳",
+        "parent_id": 34,
+        "path": "34:405:",
+        "rank": 8,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1301
+            },
+            "has_children": false,
+            "id": 1301,
+            "name": "市委书记何树平",
+            "parent_id": 404,
+            "path": "34:404:1301:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1302
+            },
+            "has_children": false,
+            "id": 1302,
+            "name": "市长袁华兵",
+            "parent_id": 404,
+            "path": "34:404:1302:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1823
+            },
+            "has_children": false,
+            "id": 1823,
+            "name": "朝天区",
+            "parent_id": 404,
+            "path": "34:404:1823:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1824
+            },
+            "has_children": false,
+            "id": 1824,
+            "name": "昭化区",
+            "parent_id": 404,
+            "path": "34:404:1824:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1825
+            },
+            "has_children": false,
+            "id": 1825,
+            "name": "利州区",
+            "parent_id": 404,
+            "path": "34:404:1825:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1826
+            },
+            "has_children": false,
+            "id": 1826,
+            "name": "青川县",
+            "parent_id": 404,
+            "path": "34:404:1826:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1827
+            },
+            "has_children": false,
+            "id": 1827,
+            "name": "剑阁县",
+            "parent_id": 404,
+            "path": "34:404:1827:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1828
+            },
+            "has_children": false,
+            "id": 1828,
+            "name": "旺苍县",
+            "parent_id": 404,
+            "path": "34:404:1828:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1829
+            },
+            "has_children": false,
+            "id": 1829,
+            "name": "苍溪县",
+            "parent_id": 404,
+            "path": "34:404:1829:",
+            "rank": 9,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4404
+            },
+            "has_children": false,
+            "id": 4404,
+            "name": "广元经济开发区",
+            "parent_id": 404,
+            "path": "34:404:4404:",
+            "rank": 10,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 404
+        },
+        "has_children": false,
+        "id": 404,
+        "name": "广元",
+        "parent_id": 34,
+        "path": "34:404:",
+        "rank": 9,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1303
+            },
+            "has_children": false,
+            "id": 1303,
+            "name": "市委书记严卫东",
+            "parent_id": 403,
+            "path": "34:403:1303:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1304
+            },
+            "has_children": false,
+            "id": 1304,
+            "name": "市长刘会英",
+            "parent_id": 403,
+            "path": "34:403:1304:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1830
+            },
+            "has_children": false,
+            "id": 1830,
+            "name": "船山区",
+            "parent_id": 403,
+            "path": "34:403:1830:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1831
+            },
+            "has_children": false,
+            "id": 1831,
+            "name": "安居区",
+            "parent_id": 403,
+            "path": "34:403:1831:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1832
+            },
+            "has_children": false,
+            "id": 1832,
+            "name": "射洪市",
+            "parent_id": 403,
+            "path": "34:403:1832:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1833
+            },
+            "has_children": false,
+            "id": 1833,
+            "name": "蓬溪县",
+            "parent_id": 403,
+            "path": "34:403:1833:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1834
+            },
+            "has_children": false,
+            "id": 1834,
+            "name": "大英县",
+            "parent_id": 403,
+            "path": "34:403:1834:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4761
+            },
+            "has_children": false,
+            "id": 4761,
+            "name": "经开区",
+            "parent_id": 403,
+            "path": "34:403:4761:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4760
+            },
+            "has_children": false,
+            "id": 4760,
+            "name": "河东新区",
+            "parent_id": 403,
+            "path": "34:403:4760:",
+            "rank": 9,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4755
+            },
+            "has_children": false,
+            "id": 4755,
+            "name": "高新区",
+            "parent_id": 403,
+            "path": "34:403:4755:",
+            "rank": 10,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 403
+        },
+        "has_children": false,
+        "id": 403,
+        "name": "遂宁",
+        "parent_id": 34,
+        "path": "34:403:",
+        "rank": 10,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1305
+            },
+            "has_children": false,
+            "id": 1305,
+            "name": "市委书记邹自景",
+            "parent_id": 402,
+            "path": "34:402:1305:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1306
+            },
+            "has_children": false,
+            "id": 1306,
+            "name": "市长薛学深",
+            "parent_id": 402,
+            "path": "34:402:1306:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1835
+            },
+            "has_children": false,
+            "id": 1835,
+            "name": "市中区",
+            "parent_id": 402,
+            "path": "34:402:1835:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1836
+            },
+            "has_children": false,
+            "id": 1836,
+            "name": "东兴区",
+            "parent_id": 402,
+            "path": "34:402:1836:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1837
+            },
+            "has_children": false,
+            "id": 1837,
+            "name": "资中县",
+            "parent_id": 402,
+            "path": "34:402:1837:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1838
+            },
+            "has_children": false,
+            "id": 1838,
+            "name": "隆昌市",
+            "parent_id": 402,
+            "path": "34:402:1838:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1839
+            },
+            "has_children": false,
+            "id": 1839,
+            "name": "威远县",
+            "parent_id": 402,
+            "path": "34:402:1839:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 402
+        },
+        "has_children": false,
+        "id": 402,
+        "name": "内江",
+        "parent_id": 34,
+        "path": "34:402:",
+        "rank": 11,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1307
+            },
+            "has_children": false,
+            "id": 1307,
+            "name": "市委书记赵波",
+            "parent_id": 401,
+            "path": "34:401:1307:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1308
+            },
+            "has_children": false,
+            "id": 1308,
+            "name": "市长赵迎春",
+            "parent_id": 401,
+            "path": "34:401:1308:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1840
+            },
+            "has_children": false,
+            "id": 1840,
+            "name": "市中区",
+            "parent_id": 401,
+            "path": "34:401:1840:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1841
+            },
+            "has_children": false,
+            "id": 1841,
+            "name": "五通桥区",
+            "parent_id": 401,
+            "path": "34:401:1841:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1842
+            },
+            "has_children": false,
+            "id": 1842,
+            "name": "沙湾区",
+            "parent_id": 401,
+            "path": "34:401:1842:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1843
+            },
+            "has_children": false,
+            "id": 1843,
+            "name": "金口河区",
+            "parent_id": 401,
+            "path": "34:401:1843:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1844
+            },
+            "has_children": false,
+            "id": 1844,
+            "name": "犍为县",
+            "parent_id": 401,
+            "path": "34:401:1844:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1845
+            },
+            "has_children": false,
+            "id": 1845,
+            "name": "井研县",
+            "parent_id": 401,
+            "path": "34:401:1845:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1846
+            },
+            "has_children": false,
+            "id": 1846,
+            "name": "夹江县",
+            "parent_id": 401,
+            "path": "34:401:1846:",
+            "rank": 9,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1847
+            },
+            "has_children": false,
+            "id": 1847,
+            "name": "沐川县",
+            "parent_id": 401,
+            "path": "34:401:1847:",
+            "rank": 10,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1848
+            },
+            "has_children": false,
+            "id": 1848,
+            "name": "峨边彝族自治县",
+            "parent_id": 401,
+            "path": "34:401:1848:",
+            "rank": 11,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1849
+            },
+            "has_children": false,
+            "id": 1849,
+            "name": "马边彝族自治县",
+            "parent_id": 401,
+            "path": "34:401:1849:",
+            "rank": 12,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1850
+            },
+            "has_children": false,
+            "id": 1850,
+            "name": "峨眉山市",
+            "parent_id": 401,
+            "path": "34:401:1850:",
+            "rank": 13,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4763
+            },
+            "has_children": false,
+            "id": 4763,
+            "name": "高新区",
+            "parent_id": 401,
+            "path": "34:401:4763:",
+            "rank": 14,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 401
+        },
+        "has_children": false,
+        "id": 401,
+        "name": "乐山",
+        "parent_id": 34,
+        "path": "34:401:",
+        "rank": 12,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1309
+            },
+            "has_children": false,
+            "id": 1309,
+            "name": "市委书记张冬云",
+            "parent_id": 400,
+            "path": "34:400:1309:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1310
+            },
+            "has_children": false,
+            "id": 1310,
+            "name": "市长尹念红",
+            "parent_id": 400,
+            "path": "34:400:1310:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1851
+            },
+            "has_children": false,
+            "id": 1851,
+            "name": "顺庆区",
+            "parent_id": 400,
+            "path": "34:400:1851:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1852
+            },
+            "has_children": false,
+            "id": 1852,
+            "name": "高坪区",
+            "parent_id": 400,
+            "path": "34:400:1852:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1853
+            },
+            "has_children": false,
+            "id": 1853,
+            "name": "嘉陵区",
+            "parent_id": 400,
+            "path": "34:400:1853:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1854
+            },
+            "has_children": false,
+            "id": 1854,
+            "name": "阆中市",
+            "parent_id": 400,
+            "path": "34:400:1854:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1855
+            },
+            "has_children": false,
+            "id": 1855,
+            "name": "南部县",
+            "parent_id": 400,
+            "path": "34:400:1855:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1856
+            },
+            "has_children": false,
+            "id": 1856,
+            "name": "西充县",
+            "parent_id": 400,
+            "path": "34:400:1856:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1857
+            },
+            "has_children": false,
+            "id": 1857,
+            "name": "蓬安县",
+            "parent_id": 400,
+            "path": "34:400:1857:",
+            "rank": 9,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1858
+            },
+            "has_children": false,
+            "id": 1858,
+            "name": "仪陇县",
+            "parent_id": 400,
+            "path": "34:400:1858:",
+            "rank": 10,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1859
+            },
+            "has_children": false,
+            "id": 1859,
+            "name": "营山县",
+            "parent_id": 400,
+            "path": "34:400:1859:",
+            "rank": 11,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 400
+        },
+        "has_children": false,
+        "id": 400,
+        "name": "南充",
+        "parent_id": 34,
+        "path": "34:400:",
+        "rank": 13,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1311
+            },
+            "has_children": false,
+            "id": 1311,
+            "name": "市委书记方存好",
+            "parent_id": 398,
+            "path": "34:398:1311:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1312
+            },
+            "has_children": false,
+            "id": 1312,
+            "name": "市长廖文彬",
+            "parent_id": 398,
+            "path": "34:398:1312:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1860
+            },
+            "has_children": false,
+            "id": 1860,
+            "name": "翠屏区",
+            "parent_id": 398,
+            "path": "34:398:1860:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1861
+            },
+            "has_children": false,
+            "id": 1861,
+            "name": "叙州区",
+            "parent_id": 398,
+            "path": "34:398:1861:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1862
+            },
+            "has_children": false,
+            "id": 1862,
+            "name": "兴文县",
+            "parent_id": 398,
+            "path": "34:398:1862:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1863
+            },
+            "has_children": false,
+            "id": 1863,
+            "name": "长宁县",
+            "parent_id": 398,
+            "path": "34:398:1863:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1864
+            },
+            "has_children": false,
+            "id": 1864,
+            "name": "屏山县",
+            "parent_id": 398,
+            "path": "34:398:1864:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1865
+            },
+            "has_children": false,
+            "id": 1865,
+            "name": "南溪区",
+            "parent_id": 398,
+            "path": "34:398:1865:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1866
+            },
+            "has_children": false,
+            "id": 1866,
+            "name": "珙县",
+            "parent_id": 398,
+            "path": "34:398:1866:",
+            "rank": 9,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1867
+            },
+            "has_children": false,
+            "id": 1867,
+            "name": "筠连县",
+            "parent_id": 398,
+            "path": "34:398:1867:",
+            "rank": 10,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1868
+            },
+            "has_children": false,
+            "id": 1868,
+            "name": "江安县",
+            "parent_id": 398,
+            "path": "34:398:1868:",
+            "rank": 11,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1869
+            },
+            "has_children": false,
+            "id": 1869,
+            "name": "高县",
+            "parent_id": 398,
+            "path": "34:398:1869:",
+            "rank": 12,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 398
+        },
+        "has_children": false,
+        "id": 398,
+        "name": "宜宾",
+        "parent_id": 34,
+        "path": "34:398:",
+        "rank": 14,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1313
+            },
+            "has_children": false,
+            "id": 1313,
+            "name": "市委书记张彤",
+            "parent_id": 397,
+            "path": "34:397:1313:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1314
+            },
+            "has_children": false,
+            "id": 1314,
+            "name": "市长刘襄渝",
+            "parent_id": 397,
+            "path": "34:397:1314:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1870
+            },
+            "has_children": false,
+            "id": 1870,
+            "name": "广安区",
+            "parent_id": 397,
+            "path": "34:397:1870:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4654
+            },
+            "has_children": false,
+            "id": 4654,
+            "name": "前锋区",
+            "parent_id": 397,
+            "path": "34:397:4654:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1871
+            },
+            "has_children": false,
+            "id": 1871,
+            "name": "岳池县",
+            "parent_id": 397,
+            "path": "34:397:1871:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1872
+            },
+            "has_children": false,
+            "id": 1872,
+            "name": "武胜县",
+            "parent_id": 397,
+            "path": "34:397:1872:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1873
+            },
+            "has_children": false,
+            "id": 1873,
+            "name": "邻水县",
+            "parent_id": 397,
+            "path": "34:397:1873:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1874
+            },
+            "has_children": false,
+            "id": 1874,
+            "name": "华蓥市",
+            "parent_id": 397,
+            "path": "34:397:1874:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 397
+        },
+        "has_children": false,
+        "id": 397,
+        "name": "广安",
+        "parent_id": 34,
+        "path": "34:397:",
+        "rank": 15,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1315
+            },
+            "has_children": false,
+            "id": 1315,
+            "name": "市委书记邵革军",
+            "parent_id": 396,
+            "path": "34:396:1315:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1316
+            },
+            "has_children": false,
+            "id": 1316,
+            "name": "市长梁磊",
+            "parent_id": 396,
+            "path": "34:396:1316:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1875
+            },
+            "has_children": false,
+            "id": 1875,
+            "name": "通川区",
+            "parent_id": 396,
+            "path": "34:396:1875:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1876
+            },
+            "has_children": false,
+            "id": 1876,
+            "name": "达川区",
+            "parent_id": 396,
+            "path": "34:396:1876:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1877
+            },
+            "has_children": false,
+            "id": 1877,
+            "name": "大竹县",
+            "parent_id": 396,
+            "path": "34:396:1877:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1878
+            },
+            "has_children": false,
+            "id": 1878,
+            "name": "宣汉县",
+            "parent_id": 396,
+            "path": "34:396:1878:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1879
+            },
+            "has_children": false,
+            "id": 1879,
+            "name": "开江县",
+            "parent_id": 396,
+            "path": "34:396:1879:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1880
+            },
+            "has_children": false,
+            "id": 1880,
+            "name": "渠县",
+            "parent_id": 396,
+            "path": "34:396:1880:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1881
+            },
+            "has_children": false,
+            "id": 1881,
+            "name": "万源市",
+            "parent_id": 396,
+            "path": "34:396:1881:",
+            "rank": 9,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 396
+        },
+        "has_children": false,
+        "id": 396,
+        "name": "达州",
+        "parent_id": 34,
+        "path": "34:396:",
+        "rank": 16,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1321
+            },
+            "has_children": false,
+            "id": 1321,
+            "name": "市委书记鲜荣生",
+            "parent_id": 394,
+            "path": "34:394:1321:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1322
+            },
+            "has_children": false,
+            "id": 1322,
+            "name": "市长高鹏凌",
+            "parent_id": 394,
+            "path": "34:394:1322:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1896
+            },
+            "has_children": false,
+            "id": 1896,
+            "name": "巴州区",
+            "parent_id": 394,
+            "path": "34:394:1896:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 4711
+            },
+            "has_children": false,
+            "id": 4711,
+            "name": "恩阳区",
+            "parent_id": 394,
+            "path": "34:394:4711:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1897
+            },
+            "has_children": false,
+            "id": 1897,
+            "name": "通江县",
+            "parent_id": 394,
+            "path": "34:394:1897:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1898
+            },
+            "has_children": false,
+            "id": 1898,
+            "name": "南江县",
+            "parent_id": 394,
+            "path": "34:394:1898:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1899
+            },
+            "has_children": false,
+            "id": 1899,
+            "name": "平昌县",
+            "parent_id": 394,
+            "path": "34:394:1899:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 394
+        },
+        "has_children": false,
+        "id": 394,
+        "name": "巴中",
+        "parent_id": 34,
+        "path": "34:394:",
+        "rank": 17,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1319
+            },
+            "has_children": false,
+            "id": 1319,
+            "name": "市委书记夏凤俭",
+            "parent_id": 395,
+            "path": "34:395:1319:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1320
+            },
+            "has_children": false,
+            "id": 1320,
+            "name": "市长彭映梅",
+            "parent_id": 395,
+            "path": "34:395:1320:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1888
+            },
+            "has_children": false,
+            "id": 1888,
+            "name": "雨城区",
+            "parent_id": 395,
+            "path": "34:395:1888:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1889
+            },
+            "has_children": false,
+            "id": 1889,
+            "name": "名山区",
+            "parent_id": 395,
+            "path": "34:395:1889:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1890
+            },
+            "has_children": false,
+            "id": 1890,
+            "name": "荥经县",
+            "parent_id": 395,
+            "path": "34:395:1890:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1891
+            },
+            "has_children": false,
+            "id": 1891,
+            "name": "汉源县",
+            "parent_id": 395,
+            "path": "34:395:1891:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1892
+            },
+            "has_children": false,
+            "id": 1892,
+            "name": "石棉县",
+            "parent_id": 395,
+            "path": "34:395:1892:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1893
+            },
+            "has_children": false,
+            "id": 1893,
+            "name": "天全县",
+            "parent_id": 395,
+            "path": "34:395:1893:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1894
+            },
+            "has_children": false,
+            "id": 1894,
+            "name": "芦山县",
+            "parent_id": 395,
+            "path": "34:395:1894:",
+            "rank": 9,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1895
+            },
+            "has_children": false,
+            "id": 1895,
+            "name": "宝兴县",
+            "parent_id": 395,
+            "path": "34:395:1895:",
+            "rank": 10,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 395
+        },
+        "has_children": false,
+        "id": 395,
+        "name": "雅安",
+        "parent_id": 34,
+        "path": "34:395:",
+        "rank": 18,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1317
+            },
+            "has_children": false,
+            "id": 1317,
+            "name": "市委书记黄河",
+            "parent_id": 399,
+            "path": "34:399:1317:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1318
+            },
+            "has_children": false,
+            "id": 1318,
+            "name": "市长王斌达",
+            "parent_id": 399,
+            "path": "34:399:1318:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1882
+            },
+            "has_children": false,
+            "id": 1882,
+            "name": "东坡区",
+            "parent_id": 399,
+            "path": "34:399:1882:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1883
+            },
+            "has_children": false,
+            "id": 1883,
+            "name": "仁寿县",
+            "parent_id": 399,
+            "path": "34:399:1883:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1884
+            },
+            "has_children": false,
+            "id": 1884,
+            "name": "彭山区",
+            "parent_id": 399,
+            "path": "34:399:1884:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1885
+            },
+            "has_children": false,
+            "id": 1885,
+            "name": "洪雅县",
+            "parent_id": 399,
+            "path": "34:399:1885:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1886
+            },
+            "has_children": false,
+            "id": 1886,
+            "name": "青神县",
+            "parent_id": 399,
+            "path": "34:399:1886:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1887
+            },
+            "has_children": false,
+            "id": 1887,
+            "name": "丹棱县",
+            "parent_id": 399,
+            "path": "34:399:1887:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 399
+        },
+        "has_children": false,
+        "id": 399,
+        "name": "眉山",
+        "parent_id": 34,
+        "path": "34:399:",
+        "rank": 19,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1323
+            },
+            "has_children": false,
+            "id": 1323,
+            "name": "市委书记元方",
+            "parent_id": 393,
+            "path": "34:393:1323:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1324
+            },
+            "has_children": false,
+            "id": 1324,
+            "name": "市长赵浩宇",
+            "parent_id": 393,
+            "path": "34:393:1324:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1900
+            },
+            "has_children": false,
+            "id": 1900,
+            "name": "雁江区",
+            "parent_id": 393,
+            "path": "34:393:1900:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1902
+            },
+            "has_children": false,
+            "id": 1902,
+            "name": "乐至县",
+            "parent_id": 393,
+            "path": "34:393:1902:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1903
+            },
+            "has_children": false,
+            "id": 1903,
+            "name": "安岳县",
+            "parent_id": 393,
+            "path": "34:393:1903:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 393
+        },
+        "has_children": false,
+        "id": 393,
+        "name": "资阳",
+        "parent_id": 34,
+        "path": "34:393:",
+        "rank": 20,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1551
+            },
+            "has_children": false,
+            "id": 1551,
+            "name": "州委书记沈阳",
+            "parent_id": 391,
+            "path": "34:391:1551:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1552
+            },
+            "has_children": false,
+            "id": 1552,
+            "name": "州长冯发贵",
+            "parent_id": 391,
+            "path": "34:391:1552:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1917
+            },
+            "has_children": false,
+            "id": 1917,
+            "name": "康定市",
+            "parent_id": 391,
+            "path": "34:391:1917:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1918
+            },
+            "has_children": false,
+            "id": 1918,
+            "name": "泸定县",
+            "parent_id": 391,
+            "path": "34:391:1918:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1919
+            },
+            "has_children": false,
+            "id": 1919,
+            "name": "丹巴县",
+            "parent_id": 391,
+            "path": "34:391:1919:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1920
+            },
+            "has_children": false,
+            "id": 1920,
+            "name": "九龙县",
+            "parent_id": 391,
+            "path": "34:391:1920:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1921
+            },
+            "has_children": false,
+            "id": 1921,
+            "name": "雅江县",
+            "parent_id": 391,
+            "path": "34:391:1921:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1922
+            },
+            "has_children": false,
+            "id": 1922,
+            "name": "道孚县",
+            "parent_id": 391,
+            "path": "34:391:1922:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1923
+            },
+            "has_children": false,
+            "id": 1923,
+            "name": "炉霍县",
+            "parent_id": 391,
+            "path": "34:391:1923:",
+            "rank": 9,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1924
+            },
+            "has_children": false,
+            "id": 1924,
+            "name": "甘孜县",
+            "parent_id": 391,
+            "path": "34:391:1924:",
+            "rank": 10,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1925
+            },
+            "has_children": false,
+            "id": 1925,
+            "name": "新龙县",
+            "parent_id": 391,
+            "path": "34:391:1925:",
+            "rank": 11,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1926
+            },
+            "has_children": false,
+            "id": 1926,
+            "name": "德格县",
+            "parent_id": 391,
+            "path": "34:391:1926:",
+            "rank": 12,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1927
+            },
+            "has_children": false,
+            "id": 1927,
+            "name": "白玉县",
+            "parent_id": 391,
+            "path": "34:391:1927:",
+            "rank": 13,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1928
+            },
+            "has_children": false,
+            "id": 1928,
+            "name": "石渠县",
+            "parent_id": 391,
+            "path": "34:391:1928:",
+            "rank": 14,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1929
+            },
+            "has_children": false,
+            "id": 1929,
+            "name": "色达县",
+            "parent_id": 391,
+            "path": "34:391:1929:",
+            "rank": 15,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1930
+            },
+            "has_children": false,
+            "id": 1930,
+            "name": "理塘县",
+            "parent_id": 391,
+            "path": "34:391:1930:",
+            "rank": 16,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1931
+            },
+            "has_children": false,
+            "id": 1931,
+            "name": "巴塘县",
+            "parent_id": 391,
+            "path": "34:391:1931:",
+            "rank": 17,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1932
+            },
+            "has_children": false,
+            "id": 1932,
+            "name": "乡城县",
+            "parent_id": 391,
+            "path": "34:391:1932:",
+            "rank": 18,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1933
+            },
+            "has_children": false,
+            "id": 1933,
+            "name": "稻城县",
+            "parent_id": 391,
+            "path": "34:391:1933:",
+            "rank": 19,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1934
+            },
+            "has_children": false,
+            "id": 1934,
+            "name": "得荣县",
+            "parent_id": 391,
+            "path": "34:391:1934:",
+            "rank": 20,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 391
+        },
+        "has_children": false,
+        "id": 391,
+        "name": "甘孜",
+        "parent_id": 34,
+        "path": "34:391:",
+        "rank": 21,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1549
+            },
+            "has_children": false,
+            "id": 1549,
+            "name": "州委书记徐芝文",
+            "parent_id": 392,
+            "path": "34:392:1549:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1550
+            },
+            "has_children": false,
+            "id": 1550,
+            "name": "州长罗振华",
+            "parent_id": 392,
+            "path": "34:392:1550:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1904
+            },
+            "has_children": false,
+            "id": 1904,
+            "name": "马尔康县",
+            "parent_id": 392,
+            "path": "34:392:1904:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1905
+            },
+            "has_children": false,
+            "id": 1905,
+            "name": "汶川县",
+            "parent_id": 392,
+            "path": "34:392:1905:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1906
+            },
+            "has_children": false,
+            "id": 1906,
+            "name": "理县",
+            "parent_id": 392,
+            "path": "34:392:1906:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1907
+            },
+            "has_children": false,
+            "id": 1907,
+            "name": "茂县",
+            "parent_id": 392,
+            "path": "34:392:1907:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1908
+            },
+            "has_children": false,
+            "id": 1908,
+            "name": "松潘县",
+            "parent_id": 392,
+            "path": "34:392:1908:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1909
+            },
+            "has_children": false,
+            "id": 1909,
+            "name": "九寨沟县",
+            "parent_id": 392,
+            "path": "34:392:1909:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1910
+            },
+            "has_children": false,
+            "id": 1910,
+            "name": "金川县",
+            "parent_id": 392,
+            "path": "34:392:1910:",
+            "rank": 9,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1911
+            },
+            "has_children": false,
+            "id": 1911,
+            "name": "小金县",
+            "parent_id": 392,
+            "path": "34:392:1911:",
+            "rank": 10,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1912
+            },
+            "has_children": false,
+            "id": 1912,
+            "name": "黑水县",
+            "parent_id": 392,
+            "path": "34:392:1912:",
+            "rank": 11,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1913
+            },
+            "has_children": false,
+            "id": 1913,
+            "name": "壤塘县",
+            "parent_id": 392,
+            "path": "34:392:1913:",
+            "rank": 12,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1914
+            },
+            "has_children": false,
+            "id": 1914,
+            "name": "阿坝县",
+            "parent_id": 392,
+            "path": "34:392:1914:",
+            "rank": 13,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1915
+            },
+            "has_children": false,
+            "id": 1915,
+            "name": "若尔盖县",
+            "parent_id": 392,
+            "path": "34:392:1915:",
+            "rank": 14,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1916
+            },
+            "has_children": false,
+            "id": 1916,
+            "name": "红原县",
+            "parent_id": 392,
+            "path": "34:392:1916:",
+            "rank": 15,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 392
+        },
+        "has_children": false,
+        "id": 392,
+        "name": "阿坝",
+        "parent_id": 34,
+        "path": "34:392:",
+        "rank": 22,
+        "statistic": null,
+        "type": "CITY"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1553
+            },
+            "has_children": false,
+            "id": 1553,
+            "name": "州委书记虞平",
+            "parent_id": 390,
+            "path": "34:390:1553:",
+            "rank": 1,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "mayor": true,
+              "originId": 1554
+            },
+            "has_children": false,
+            "id": 1554,
+            "name": "州长阿石拉比",
+            "parent_id": 390,
+            "path": "34:390:1554:",
+            "rank": 2,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1935
+            },
+            "has_children": false,
+            "id": 1935,
+            "name": "西昌市",
+            "parent_id": 390,
+            "path": "34:390:1935:",
+            "rank": 3,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1936
+            },
+            "has_children": false,
+            "id": 1936,
+            "name": "木里县",
+            "parent_id": 390,
+            "path": "34:390:1936:",
+            "rank": 4,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1937
+            },
+            "has_children": false,
+            "id": 1937,
+            "name": "盐源县",
+            "parent_id": 390,
+            "path": "34:390:1937:",
+            "rank": 5,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1938
+            },
+            "has_children": false,
+            "id": 1938,
+            "name": "德昌县",
+            "parent_id": 390,
+            "path": "34:390:1938:",
+            "rank": 6,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1939
+            },
+            "has_children": false,
+            "id": 1939,
+            "name": "会理市",
+            "parent_id": 390,
+            "path": "34:390:1939:",
+            "rank": 7,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1940
+            },
+            "has_children": false,
+            "id": 1940,
+            "name": "会东县",
+            "parent_id": 390,
+            "path": "34:390:1940:",
+            "rank": 8,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1941
+            },
+            "has_children": false,
+            "id": 1941,
+            "name": "宁南县",
+            "parent_id": 390,
+            "path": "34:390:1941:",
+            "rank": 9,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1942
+            },
+            "has_children": false,
+            "id": 1942,
+            "name": "普格县",
+            "parent_id": 390,
+            "path": "34:390:1942:",
+            "rank": 10,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1943
+            },
+            "has_children": false,
+            "id": 1943,
+            "name": "布拖县",
+            "parent_id": 390,
+            "path": "34:390:1943:",
+            "rank": 11,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1944
+            },
+            "has_children": false,
+            "id": 1944,
+            "name": "金阳县",
+            "parent_id": 390,
+            "path": "34:390:1944:",
+            "rank": 12,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1945
+            },
+            "has_children": false,
+            "id": 1945,
+            "name": "昭觉县",
+            "parent_id": 390,
+            "path": "34:390:1945:",
+            "rank": 13,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1946
+            },
+            "has_children": false,
+            "id": 1946,
+            "name": "喜德县",
+            "parent_id": 390,
+            "path": "34:390:1946:",
+            "rank": 14,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1947
+            },
+            "has_children": false,
+            "id": 1947,
+            "name": "冕宁县",
+            "parent_id": 390,
+            "path": "34:390:1947:",
+            "rank": 15,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1948
+            },
+            "has_children": false,
+            "id": 1948,
+            "name": "越西县",
+            "parent_id": 390,
+            "path": "34:390:1948:",
+            "rank": 16,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1949
+            },
+            "has_children": false,
+            "id": 1949,
+            "name": "甘洛县",
+            "parent_id": 390,
+            "path": "34:390:1949:",
+            "rank": 17,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1950
+            },
+            "has_children": false,
+            "id": 1950,
+            "name": "美姑县",
+            "parent_id": 390,
+            "path": "34:390:1950:",
+            "rank": 18,
+            "statistic": null,
+            "type": ""
+          },
+          {
+            "children": [],
+            "code": "",
+            "ext": {
+              "originId": 1951
+            },
+            "has_children": false,
+            "id": 1951,
+            "name": "雷波县",
+            "parent_id": 390,
+            "path": "34:390:1951:",
+            "rank": 19,
+            "statistic": null,
+            "type": ""
+          }
+        ],
+        "code": "",
+        "ext": {
+          "originId": 390
+        },
+        "has_children": false,
+        "id": 390,
+        "name": "凉山",
+        "parent_id": 34,
+        "path": "34:390:",
+        "rank": 23,
+        "statistic": null,
+        "type": "CITY"
+      }
+    ],
+    "code": "",
+    "ext": {
+      "originId": 34
+    },
+    "has_children": false,
+    "id": 34,
+    "name": "四川省",
+    "parent_id": -1,
+    "path": "34:",
+    "rank": 25,
+    "statistic": null,
+    "type": ""
+  }
+}

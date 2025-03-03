@@ -1,0 +1,38 @@
+# 配置文件
+database:
+  postgres:
+    host: localhost
+    port: 5432
+    database: gov_complaint_data
+    user: wenzheng_user
+    password: "123456"
+    client_encoding: 'UTF8'
+
+api:
+  base_url: "https://wz-api.chuanbaoguancha.cn/api/v1"
+  endpoints:
+    province_tree: "/organization/tree"
+    city_tree: "/city/organization/tree"
+    thread_page: "/thread/page"
+  retry:
+    max_attempts: 3
+    delay: 1
+  rate_limit:
+    requests_per_second: 2
+  headers:
+    accept: "application/json"
+    accept-language: "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7"
+    content-type: "application/json"
+    host: "wz-api.chuanbaoguancha.cn"
+    origin: "https://ly.scol.com.cn"
+    referer: "https://ly.scol.com.cn/"
+    user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+crawler:
+  save_directory: "data/complaints"
+  organization_directory: "data/organizations"
+
+logging:
+  level: INFO
+  file: "logs/crawler.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
