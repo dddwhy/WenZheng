@@ -5,6 +5,7 @@ import os
 import sys
 import argparse
 from pathlib import Path
+import json
 
 # 添加项目根目录到Python路径
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
@@ -26,6 +27,12 @@ def import_file(file_path):
     """
     logger.info(f"正在导入文件: {file_path}")
     processor = OrganizationDataProcessor()
+    
+    # 添加数据预览
+    with open(file_path) as f:
+        sample_data = json.load(f)
+        logger.debug(f"数据结构预览：{json.dumps(sample_data, ensure_ascii=False)[:200]}...")
+    
     count = processor.process_file(file_path)
     logger.info(f"文件 {file_path} 导入完成，共处理 {count} 条记录")
     return count

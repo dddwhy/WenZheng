@@ -1,6 +1,7 @@
 """
 批量投诉数据处理器
 实现高效的数据批量导入和更新
+最终版本
 """
 import logging
 import sys
@@ -13,6 +14,7 @@ import aiohttp
 from psycopg2.pool import SimpleConnectionPool
 from psycopg2.extras import execute_batch
 from contextlib import contextmanager
+import traceback
 
 # 添加项目根目录到Python路径
 current_dir = Path(__file__).resolve().parent
@@ -22,6 +24,7 @@ sys.path.insert(0, str(project_root))
 from src.utils.config import config
 from src.utils.logger import setup_logger
 
+# 设置日志记录
 logger = setup_logger('complaint_batch_processor')
 
 class ComplaintBatchProcessor:
@@ -59,7 +62,7 @@ class ComplaintBatchProcessor:
         finally:
             self.pool.putconn(conn)
     
-    async def fetch_complaints(self, organization_id: int, page: int = 1, page_size: int = 100) -> Optional[Dict]:
+    async def fetch_complaints(self, organization_id: int, page: int = 1, page_size: int = 1000) -> Optional[Dict]:
         """
         从API获取投诉数据
         
@@ -85,7 +88,7 @@ class ComplaintBatchProcessor:
             return None
             
         url = f"{base_url}{endpoint}"
-        logger.info(f"开始获取组织 {organization_id} 的第 {page} 页数据")
+        logger.info(f"开始获取组织 {organization_id} 的第 {page} 页数据 (每页 {page_size} 条)")
         
         # 构建请求参数
         payload = {
@@ -100,7 +103,8 @@ class ComplaintBatchProcessor:
         
         try:
             headers = api_config.get('headers', {})
-            timeout = aiohttp.ClientTimeout(total=30)  # 设置30秒超时
+            # 增加超时时间以适应更大的数据量
+            timeout = aiohttp.ClientTimeout(total=60)  # 设置60秒超时
             async with aiohttp.ClientSession(timeout=timeout) as session:
                 logger.info(f"发送请求到 {url}")
                 async with session.post(url, json=payload, headers=headers) as response:
@@ -108,7 +112,8 @@ class ComplaintBatchProcessor:
                         logger.error(f"API请求失败: {response.status} {response.reason}")
                         return None
                     data = await response.json()
-                    logger.info(f"成功获取数据: {len(data.get('data', {}).get('data', []))} 条记录")
+                    record_count = len(data.get('data', {}).get('data', []))
+                    logger.info(f"成功获取数据: {record_count} 条记录")
                     return data
         except asyncio.TimeoutError:
             logger.error(f"请求超时: {url}")
@@ -230,15 +235,15 @@ class ComplaintBatchProcessor:
             
             # 构建清理后的记录
             cleaned = {
-                'thread_id': thread_id,
-                'title': record.get('title', '')[:255],  # 截断过长的标题
+                'thread_id': thread_id[:100],  # 限制长度
+                'title': (record.get('title', '') or '')[:255],  # 处理None值并截断
                 'content': record.get('content', ''),
                 'assign_organization_id': record.get('assign_organization_id'),
                 'chosen_organization_id': record.get('chosen_organization_id'),
-                'organization_name': record.get('organization_name', '')[:255],
-                'handle_status': record.get('handle_status', ''),
-                'handle_status_real': record.get('handle_status_real', ''),
-                'reply_status': record.get('reply_status', ''),
+                'organization_name': (record.get('organization_name', '') or '')[:255],
+                'handle_status': (record.get('handle_status', '') or '')[:50],
+                'handle_status_real': (record.get('handle_status_real', '') or '')[:50],
+                'reply_status': (record.get('reply_status', '') or '')[:50],
                 'created_at': created_at,
                 'assign_at': self._parse_datetime(record.get('assign_at')),
                 'handle_at': self._parse_datetime(record.get('handle_at')),
@@ -256,31 +261,31 @@ class ComplaintBatchProcessor:
                 'has_video': int(record.get('has_video', 0)),
                 'satisfaction': int(record.get('satisfaction', 0)),
                 'info_hidden': int(record.get('info_hidden', 0)),
-                'source': record.get('source', ''),
-                'ip': record.get('ip', ''),
-                'username': record.get('username', '')[:100],
-                'passport_id': record.get('passport_id', '')[:100],
-                'wechat_uid': record.get('wechat_uid', '')[:100],
+                'source': (record.get('source', '') or '')[:50],
+                'ip': (record.get('ip', '') or '')[:50],
+                'username': (record.get('username', '') or '')[:100],
+                'passport_id': (record.get('passport_id', '') or '')[:100],
+                'wechat_uid': (record.get('wechat_uid', '') or '')[:100],
                 'area_id': record.get('area_id'),
                 'field_id': record.get('field_id'),
-                'field_name': record.get('field_name', '')[:100],
+                'field_name': (record.get('field_name', '') or '')[:100],
                 'sort_id': record.get('sort_id'),
-                'sort_name': record.get('sort_name', '')[:100],
-                'visible_status': record.get('visible_status', ''),
-                'updator': record.get('updator', '')[:100],
-                'link': record.get('link', '')[:255],
+                'sort_name': (record.get('sort_name', '') or '')[:100],
+                'visible_status': (record.get('visible_status', '') or '')[:50],
+                'updator': (record.get('updator', '') or '')[:100],
+                'link': (record.get('link', '') or '')[:255],
                 'category': self._categorize_complaint(
                     record.get('title', ''), 
                     record.get('content', '')
-                ),
-                'attaches': json.dumps(record.get('attaches', [])),
-                'ext': json.dumps(record.get('ext', {}))
+                )[:50],
+                'attaches': json.dumps(record.get('attaches', []), ensure_ascii=False),
+                'ext': json.dumps(record.get('ext', {}), ensure_ascii=False)
             }
             
             return cleaned
             
         except Exception as e:
-            logger.error(f"清理记录时出错: {e}")
+            logger.error(f"清理记录时出错: {str(e)}")
             return None
     
     def _parse_datetime(self, dt_str: str) -> Optional[datetime]:
@@ -329,7 +334,7 @@ class ComplaintBatchProcessor:
         
         return max(category_counts.items(), key=lambda x: x[1])[0] if category_counts else '其他'
     
-    async def process_organization(self, organization_id: int, page_size: int = 100) -> Dict[str, int]:
+    async def process_organization(self, organization_id: int, page_size: int = 1000) -> Dict[str, int]:
         """
         处理单个组织的投诉数据
         
@@ -346,49 +351,74 @@ class ComplaintBatchProcessor:
         
         logger.info(f"开始处理组织 {organization_id} 的数据")
         
-        while True:
-            # 获取数据
-            data = await self.fetch_complaints(organization_id, page, page_size)
-            if not data:
-                logger.warning(f"组织 {organization_id} 第 {page} 页数据获取失败")
-                break
-            
-            # 提取记录
-            records = data.get('data', {}).get('data', [])
-            if not records:
-                logger.info(f"组织 {organization_id} 第 {page} 页没有数据")
-                break
-            
-            logger.info(f"处理组织 {organization_id} 第 {page} 页数据，共 {len(records)} 条记录")
-            
-            # 处理批次
+        # 首先获取总记录数
+        first_page = await self.fetch_complaints(organization_id, 1, page_size)
+        if not first_page:
+            logger.error(f"无法获取组织 {organization_id} 的数据")
+            return {
+                'organization_id': organization_id,
+                'total_success': 0,
+                'total_failed': 0,
+                'pages_processed': 0
+            }
+        
+        total_records = first_page.get('data', {}).get('total', 0)
+        total_pages = (total_records + page_size - 1) // page_size
+        
+        logger.info(f"组织 {organization_id} 共有 {total_records} 条记录，预计 {total_pages} 页")
+        
+        # 处理第一页数据
+        records = first_page.get('data', {}).get('data', [])
+        if records:
             success, failed = self.process_batch(records)
             total_success += success
             total_failed += failed
-            
-            logger.info(f"组织 {organization_id} 第 {page} 页处理完成: 成功 {success}, 失败 {failed}")
-            
-            # 检查是否还有下一页
-            total_records = data.get('data', {}).get('total', 0)
-            if page * page_size >= total_records:
-                logger.info(f"组织 {organization_id} 的数据已处理完成")
-                break
-            
-            page += 1
-            # 控制请求频率
-            await asyncio.sleep(1)
+            logger.info(f"组织 {organization_id} 第 1/{total_pages} 页处理完成: 成功 {success}, 失败 {failed}")
+        
+        # 并发处理剩余页面，但限制并发数量
+        if total_pages > 1:
+            # 分批处理，每批2个请求
+            for batch_start in range(2, total_pages + 1, 2):
+                batch_end = min(batch_start + 2, total_pages + 1)
+                tasks = []
+                for page in range(batch_start, batch_end):
+                    tasks.append(self.fetch_complaints(organization_id, page, page_size))
+                
+                # 并发执行当前批次的请求
+                responses = await asyncio.gather(*tasks, return_exceptions=True)
+                
+                # 处理响应
+                for page_num, response in enumerate(responses, start=batch_start):
+                    if isinstance(response, Exception):
+                        logger.error(f"获取第 {page_num}/{total_pages} 页数据时出错: {str(response)}")
+                        continue
+                        
+                    if not response:
+                        continue
+                    
+                    records = response.get('data', {}).get('data', [])
+                    if records:
+                        success, failed = self.process_batch(records)
+                        total_success += success
+                        total_failed += failed
+                        logger.info(f"组织 {organization_id} 第 {page_num}/{total_pages} 页处理完成: 成功 {success}, 失败 {failed}")
+                
+                # 批次间等待，避免请求过于频繁
+                await asyncio.sleep(2)
+        
+        logger.info(f"组织 {organization_id} 处理完成: 成功 {total_success}, 失败 {total_failed}")
         
         return {
             'organization_id': organization_id,
             'total_success': total_success,
             'total_failed': total_failed,
-            'pages_processed': page
+            'pages_processed': total_pages
         }
     
     async def process_multiple_organizations(
         self,
         org_ids: List[int],
-        page_size: int = 100
+        page_size: int = 1000
     ) -> List[Dict[str, int]]:
         """
         处理多个组织的投诉数据
@@ -432,25 +462,112 @@ class ComplaintBatchProcessor:
         if self.pool:
             self.pool.closeall()
             logger.info("数据库连接池已关闭")
+    
+    async def fetch_all_organizations(self) -> List[Dict[str, Any]]:
+        """
+        获取所有可用的组织列表
+        
+        Returns:
+            组织列表，每个组织包含id和name
+        """
+        api_config = config.get('api')
+        if not isinstance(api_config, dict):
+            logger.error("无法获取API配置")
+            return []
+            
+        base_url = api_config.get('base_url')
+        endpoints = api_config.get('endpoints', {})
+        endpoint = endpoints.get('organizations')  # 需要在config中添加organizations endpoint
+        
+        if not base_url or not endpoint:
+            logger.error(f"API配置不完整: base_url={base_url}, endpoint={endpoint}")
+            return []
+            
+        url = f"{base_url}{endpoint}"
+        logger.info("开始获取所有组织列表")
+        
+        try:
+            headers = api_config.get('headers', {})
+            timeout = aiohttp.ClientTimeout(total=30)
+            async with aiohttp.ClientSession(timeout=timeout) as session:
+                async with session.get(url, headers=headers) as response:
+                    if response.status != 200:
+                        logger.error(f"获取组织列表失败: {response.status} {response.reason}")
+                        return []
+                    data = await response.json()
+                    organizations = data.get('data', [])
+                    logger.info(f"成功获取 {len(organizations)} 个组织")
+                    return organizations
+        except Exception as e:
+            logger.error(f"获取组织列表时出错: {str(e)}")
+            return []
+
+    def fetch_all_organization_ids(self) -> List[int]:
+        """
+        从数据库中获取所有组织ID
+        
+        Returns:
+            组织ID列表
+        """
+        query = "SELECT org_id FROM organizations"
+        organization_ids = []
+        
+        with self.get_db_connection() as conn:
+            try:
+                with conn.cursor() as cur:
+                    cur.execute(query)
+                    rows = cur.fetchall()
+                    organization_ids = [row[0] for row in rows]
+            except Exception as e:
+                logger.error(f"获取组织ID时出错: {e}")
+        
+        return organization_ids
 
 async def main():
     """主函数"""
     import argparse
     
     parser = argparse.ArgumentParser(description='批量处理投诉数据')
-    parser.add_argument('--org-ids', type=int, nargs='+', required=True, help='要处理的组织ID列表')
-    parser.add_argument('--page-size', type=int, default=100, help='每页数据量')
+    parser.add_argument('--org-ids', type=int, nargs='+', help='要处理的组织ID列表')
+    parser.add_argument('--page-size', type=int, default=1000, help='每页数据量')
     parser.add_argument('--pool-size', type=int, default=5, help='数据库连接池大小')
+    parser.add_argument('--all', action='store_true', help='处理所有组织的数据')
     args = parser.parse_args()
-    
-    logger.info(f"开始批量处理，组织ID: {args.org_ids}, 页大小: {args.page_size}, 连接池大小: {args.pool_size}")
     
     try:
         processor = ComplaintBatchProcessor(pool_size=args.pool_size)
         
+        if args.all:
+            logger.info("正在从数据库获取所有组织ID...")
+            org_ids = processor.fetch_all_organization_ids()
+            if not org_ids:
+                logger.error("无法获取组织ID")
+                return
+            logger.info(f"获取到 {len(org_ids)} 个组织ID")
+        elif not args.org_ids:
+            logger.error("请指定组织ID列表或使用--all参数获取所有组织")
+            return
+        else:
+            org_ids = args.org_ids
+        
+        logger.info(f"开始批量处理，组织ID数量: {len(org_ids)}, 页大小: {args.page_size}, 连接池大小: {args.pool_size}")
+        
+        # 检查配置
+        db_config = config.get('database')
+        api_config = config.get('api')
+        
+        logger.info("数据库配置:")
+        logger.info(f"  host: {db_config.get('postgres', {}).get('host')}")
+        logger.info(f"  database: {db_config.get('postgres', {}).get('database')}")
+        logger.info(f"  user: {db_config.get('postgres', {}).get('user')}")
+        
+        logger.info("API配置:")
+        logger.info(f"  base_url: {api_config.get('base_url')}")
+        logger.info(f"  endpoints: {api_config.get('endpoints')}")
+        
         # 处理数据
         results = await processor.process_multiple_organizations(
-            args.org_ids,
+            org_ids,
             args.page_size
         )
         
@@ -464,12 +581,22 @@ async def main():
         
         # 保存失败记录
         if processor.failed_records:
-            processor.save_failed_records()
+            # 创建logs目录（如果不存在）
+            logs_dir = Path(project_root) / 'logs'
+            logs_dir.mkdir(exist_ok=True)
+            
+            # 生成带时间戳的文件名
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            failed_records_file = logs_dir / f'failed_records_{timestamp}.json'
+            
+            processor.save_failed_records(str(failed_records_file))
         
     except Exception as e:
         logger.error(f"处理过程中出错: {str(e)}")
+        logger.error(f"错误详情:\n{traceback.format_exc()}")
     finally:
-        processor.close()
+        if 'processor' in locals():
+            processor.close()
 
 if __name__ == "__main__":
     try:

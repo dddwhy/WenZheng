@@ -103,6 +103,9 @@ class OrganizationDataProcessor:
             ext_keys = ['originId', 'pid', 'mayor', 'link', 'created_at', 'updated_at']
             ext = {k: node.get(k) for k in ext_keys if k in node}
             
+            # 在插入数据库前添加打印
+            print(f"Processing: {name} (Type: {org_type})")
+            
             # 插入或更新组织机构数据
             sql = """
             INSERT INTO organizations 
